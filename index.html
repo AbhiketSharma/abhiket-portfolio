@@ -4,105 +4,434 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhiket Sharma | DevOps Engineer</title>
+    <meta name="theme-color" content="#0b1120">
+
+    <meta name="description" content="Abhiket Sharma - Aspiring DevOps and Cloud Engineer. Explore AWS, Linux, Docker, Kubernetes, Terraform and CI/CD projects.">
+
+    <title>Abhiket Sharma | DevOps & Cloud Engineer</title>
+
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header>
-    <nav>
-        <h2>Abhiket.dev</h2>
-        <div>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </div>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<header class="header">
+    <nav class="navbar container">
+        <a href="#home" class="logo">Abhiket<span>.dev</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#contact" class="nav-button">Let's Connect ↗</a>
     </nav>
 </header>
 
-<section class="hero">
-    <p class="tag">ASPIRING DEVOPS & CLOUD ENGINEER</p>
-    <h1>Hi, I'm <span>Abhiket Sharma</span></h1>
-    <h2>Cloud | DevOps | Automation</h2>
-    <p>
-        BCA student passionate about Cloud Computing,
-        Linux Administration, Infrastructure as Code
-        and DevOps automation.
-    </p>
-    <a class="btn" href="#projects">Explore My Projects</a>
-</section>
+<main>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am an aspiring DevOps and Cloud Engineer.
-        I work on practical projects involving AWS,
-        Linux, Docker, Kubernetes, Terraform and CI/CD.
-        I enjoy learning new technologies and building
-        cloud infrastructure through hands-on practice.
-    </p>
-</section>
+    <!-- HERO SECTION -->
+    <section class="hero section" id="home">
+        <div class="container hero-grid">
 
-<section id="skills">
-    <h2>Technical Skills</h2>
-    <div class="skills">
-        <div>AWS Cloud</div>
-        <div>Linux Administration</div>
-        <div>Docker</div>
-        <div>Kubernetes</div>
-        <div>Terraform</div>
-        <div>Jenkins</div>
-        <div>Git & GitHub</div>
-        <div>NGINX & Apache</div>
-        <div>CloudFormation</div>
-        <div>Bash Scripting</div>
-        <div>GitHub Actions</div>
-        <div>MySQL</div>
+            <div class="hero-content reveal">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    OPEN TO INTERNSHIP & FRESHER OPPORTUNITIES
+                </div>
+
+                <p class="eyebrow">HELLO, I'M</p>
+
+                <h1>Abhiket Sharma</h1>
+
+                <h2>
+                    Aspiring <span>DevOps & Cloud Engineer</span>
+                </h2>
+
+                <p class="hero-description">
+                    Building practical cloud infrastructure, automating
+                    deployments and exploring modern DevOps technologies.
+                    Passionate about AWS, Linux, containers and CI/CD.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore Projects ↗
+                    </a>
+
+                    <a  href="assets/Abhiket_Sharma_Resume.pdf"
+   class="btn btn-outline" download>
+    Download Resume ↓
+</a>
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/AbhiketSharma"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+
+                    <a href="YOUR_LINKEDIN_URL"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-card reveal">
+                <div class="terminal-top">
+                    <span></span><span></span><span></span>
+                    <p>abhiket@devops:~</p>
+                </div>
+
+                <div class="terminal-body">
+                    <p><span class="terminal-green">$</span> whoami</p>
+                    <h3>Abhiket Sharma</h3>
+
+                    <p><span class="terminal-green">$</span> role</p>
+                    <h3>DevOps & Cloud Engineer (Aspiring)</h3>
+
+                    <p><span class="terminal-green">$</span> technologies</p>
+                    <div class="terminal-tags">
+                        <span>AWS</span>
+                        <span>Linux</span>
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>Terraform</span>
+                        <span>Jenkins</span>
+                    </div>
+
+                    <p><span class="terminal-green">$</span> status</p>
+                    <p class="terminal-success">Learning • Building • Automating</p>
+
+                    <p class="terminal-cursor">_</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-heading reveal">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+                <p>A little introduction about my technical journey.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <h3>Cloud Technology & Automation Enthusiast</h3>
+
+                    <p>
+                        I am a BCA student and aspiring DevOps and Cloud Engineer
+                        interested in building, managing and automating
+                        infrastructure.
+                    </p>
+
+                    <p>
+                        I have been working on hands-on projects involving
+                        AWS services, Linux administration, Docker,
+                        Kubernetes, Terraform, CI/CD and monitoring tools.
+                    </p>
+
+                    <p>
+                        My goal is to develop practical skills in Cloud,
+                        DevOps and DevSecOps while contributing to real-world
+                        engineering projects.
+                    </p>
+                </div>
+
+                <div class="about-stats reveal">
+                    <div class="stat-card">
+                        <h3>BCA</h3>
+                        <p>Education</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h3>AWS</h3>
+                        <p>Cloud Projects</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h3>DevOps</h3>
+                        <p>Career Focus</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h3>Hands-on</h3>
+                        <p>Learning Approach</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <div class="section-heading reveal">
+                <p class="eyebrow">MY TECH STACK</p>
+                <h2>Technical <span>Skills</span></h2>
+                <p>Technologies I have studied and practised through projects.</p>
+            </div>
+
+            <div class="skills-grid">
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">☁</div>
+                    <h3>Cloud & AWS</h3>
+                    <p>EC2, S3, IAM, VPC, RDS, CloudFront, CloudWatch,
+                       Route 53, EFS, ALB, Auto Scaling</p>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">⌘</div>
+                    <h3>Linux & Scripting</h3>
+                    <p>Ubuntu, Red Hat Linux fundamentals, Bash,
+                       Shell Scripting, System Administration</p>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">▣</div>
+                    <h3>Containers</h3>
+                    <p>Docker, Docker Compose, Kubernetes,
+                       Minikube, Container Management</p>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">⚙</div>
+                    <h3>CI/CD & Automation</h3>
+                    <p>Jenkins, GitHub Actions, Git, GitHub,
+                       Ansible fundamentals</p>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">⌗</div>
+                    <h3>Infrastructure as Code</h3>
+                    <p>Terraform, AWS CloudFormation,
+                       Infrastructure Provisioning</p>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">◉</div>
+                    <h3>Monitoring & Security</h3>
+                    <p>Prometheus, Grafana, Zabbix, Datadog,
+                       SonarQube, Trivy</p>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">⌘</div>
+                    <h3>Web & Networking</h3>
+                    <p>NGINX, Apache, HTTP/HTTPS, TCP/IP,
+                       DNS, Load Balancing</p>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon">▤</div>
+                    <h3>Databases</h3>
+                    <p>MySQL, Amazon RDS, DynamoDB,
+                       Amazon Redshift</p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-heading reveal">
+                <p class="eyebrow">MY PRACTICAL WORK</p>
+                <h2>Featured <span>Projects</span></h2>
+                <p>Cloud infrastructure, automation and deployment projects.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card reveal">
+                    <div class="project-number">PROJECT 01</div>
+                    <h3>Two-Tier AWS Architecture</h3>
+                    <p>
+                        Deployed a WordPress application on EC2 with
+                        Amazon RDS MySQL, S3 media storage and CloudFront.
+                    </p>
+                    <div class="project-tags">
+                        <span>AWS EC2</span><span>RDS</span>
+                        <span>S3</span><span>CloudFront</span>
+                    </div>
+                    <a href="https://github.com/AbhiketSharma"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">View GitHub ↗</a>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-number">PROJECT 02</div>
+                    <h3>Three-Tier AWS Architecture</h3>
+                    <p>
+                        Designed a web, application and database architecture
+                        using load balancing, EC2 Auto Scaling and RDS.
+                    </p>
+                    <div class="project-tags">
+                        <span>ALB</span><span>EC2</span>
+                        <span>Auto Scaling</span><span>RDS</span>
+                    </div>
+                    <a href="https://github.com/AbhiketSharma"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">View GitHub ↗</a>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-number">PROJECT 03</div>
+                    <h3>Terraform Infrastructure Automation</h3>
+                    <p>
+                        Practised provisioning AWS resources using
+                        reusable Terraform configurations and variables.
+                    </p>
+                    <div class="project-tags">
+                        <span>Terraform</span><span>AWS</span>
+                        <span>IaC</span>
+                    </div>
+                    <a href="https://github.com/AbhiketSharma"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">View GitHub ↗</a>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-number">PROJECT 04</div>
+                    <h3>Docker & Kubernetes Deployment</h3>
+                    <p>
+                        Built container images and practised Kubernetes
+                        deployments, services and replica scaling.
+                    </p>
+                    <div class="project-tags">
+                        <span>Docker</span><span>Kubernetes</span>
+                        <span>Minikube</span>
+                    </div>
+                    <a href="https://github.com/AbhiketSharma"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">View GitHub ↗</a>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-number">PROJECT 05</div>
+                    <h3>Monitoring with Prometheus & Grafana</h3>
+                    <p>
+                        Practised infrastructure monitoring concepts,
+                        metrics collection and dashboard visualisation.
+                    </p>
+                    <div class="project-tags">
+                        <span>Prometheus</span><span>Grafana</span>
+                        <span>Monitoring</span>
+                    </div>
+                    <a href="https://github.com/AbhiketSharma"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">View GitHub ↗</a>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-number">PROJECT 06</div>
+                    <h3>Static Website Deployment</h3>
+                    <p>
+                        Created a responsive portfolio using HTML, CSS
+                        and JavaScript and deployed it using GitHub Pages.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span>
+                        <span>GitHub Pages</span>
+                    </div>
+                    <a href="https://github.com/AbhiketSharma/abhiket-portfolio"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">View Repository ↗</a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- LEARNING JOURNEY -->
+    <section class="section section-alt" id="journey">
+        <div class="container">
+            <div class="section-heading reveal">
+                <p class="eyebrow">MY CAREER DIRECTION</p>
+                <h2>Learning <span>Journey</span></h2>
+                <p>Continuously developing practical engineering skills.</p>
+            </div>
+
+            <div class="journey-grid">
+                <div class="journey-card reveal">
+                    <span>01</span>
+                    <h3>Cloud Computing</h3>
+                    <p>AWS services and cloud infrastructure fundamentals.</p>
+                </div>
+                <div class="journey-card reveal">
+                    <span>02</span>
+                    <h3>DevOps Automation</h3>
+                    <p>Linux, Git, Docker, CI/CD and Infrastructure as Code.</p>
+                </div>
+                <div class="journey-card reveal">
+                    <span>03</span>
+                    <h3>Cloud Security</h3>
+                    <p>Exploring DevSecOps, vulnerability scanning and secure deployments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="contact-card reveal">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Have an opportunity or project?</h2>
+                <p>
+                    I am interested in DevOps, Cloud and Cloud Engineering
+                    internship and fresher opportunities.
+                </p>
+
+                <div class="contact-buttons">
+                    <a href="mailto:YOUR_EMAIL" class="btn btn-primary">
+                        Send Me an Email ↗
+                    </a>
+
+                    <a href="https://github.com/AbhiketSharma"
+                       target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline">
+                        GitHub ↗
+                    </a>
+
+                    <a href="YOUR_LINKEDIN_URL"
+                       target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline">
+                        LinkedIn ↗
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <a href="#home" class="logo">Abhiket<span>.dev</span></a>
+        <p>© <span id="currentYear"></span> Abhiket Sharma. Built with HTML, CSS & JavaScript.</p>
+        <a href="#home">Back to top ↑</a>
     </div>
-</section>
-
-<section id="projects">
-    <h2>My Projects</h2>
-
-    <div class="project">
-        <h3>Two-Tier AWS Architecture</h3>
-        <p>WordPress on EC2 with Amazon RDS MySQL,
-        S3 and CloudFront integration.</p>
-    </div>
-
-    <div class="project">
-        <h3>Three-Tier AWS Architecture</h3>
-        <p>Load Balancer, EC2 Auto Scaling and
-        RDS-based application architecture.</p>
-    </div>
-
-    <div class="project">
-        <h3>Infrastructure Automation with Terraform</h3>
-        <p>Automating AWS infrastructure provisioning
-        using Terraform configurations and modules.</p>
-    </div>
-
-    <div class="project">
-        <h3>Docker & Jenkins CI/CD</h3>
-        <p>Containerizing applications and exploring
-        automated build and deployment pipelines.</p>
-    </div>
-</section>
-
-<section id="contact">
-    <h2>Let's Connect</h2>
-    <p>Email: YOUR_EMAIL</p>
-    <p>
-        <a href="YOUR_GITHUB_URL">GitHub</a> |
-        <a href="YOUR_LINKEDIN_URL">LinkedIn</a>
-    </p>
-</section>
-
-<footer>
-    <p>© 2026 Abhiket Sharma | Built with HTML, CSS & JavaScript</p>
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
